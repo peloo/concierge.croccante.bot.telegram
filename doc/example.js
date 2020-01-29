@@ -1,5 +1,5 @@
 const Telegraf = require('telegraf');
-const bot = new Telegraf('958133709:AAHEK6Nvrp2QJ66-AUVGAnBhqafUN6Cq-dU', {
+const bot = new Telegraf('<bot-token>', {
     telegram: { webhookReply: false }
 });
 
